@@ -3,7 +3,7 @@ import PageLayout from '../../components/PageLayout'
 import Forminput from '../../components/utils/Forminput'
 import Formbutton from '../../components/utils/Formbutton'
 import { Link } from 'react-router-dom'
-import SignupModal from '../../components/utils/signupmodal'
+import SignupModal from './SignupModal'
 
 const Signup = () => {
 const [modal, setModal] = useState(false)
